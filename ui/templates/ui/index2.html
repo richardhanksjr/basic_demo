@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<input type="text" id="search_term">
+<button id="filter_text">Filter Text</button>
+<button id="reverse">Reverse Text</button>
+<button id="random">Random Integer</button>
+<div id="random_number">0</div>
+<div id="names_list">
+</div>
+
+</body>
+<script src="{% static 'ui/demo.js' %}"></script>
+</html>

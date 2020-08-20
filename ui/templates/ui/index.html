@@ -1,0 +1,21 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js" integrity="sha512-VZ6m0F78+yo3sbu48gElK4irv2dzPoep8oo9LEjxviigcnnnNvnTOJRSrIhuFk68FMLOpiNz+T77nNY89rnWDg==" crossorigin="anonymous"></script>
+</head>
+<body>
+<input type="text" id="input_box">
+<input type="submit" id="filter_names" value="Filter Names">
+<button id="reverse">Reverse</button>
+<button id="random_number_btn">Get a random number</button>
+<div id="random_number"></div>
+<div id="name_list"></div>
+
+
+</body>
+<script src="{% static 'ui/demo1.js' %}"></script>
+</html>
